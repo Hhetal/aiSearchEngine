@@ -14,8 +14,7 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-}console.log('Background color:', getComputedStyle(document.body).backgroundColor);
-console.log('Text color:', getComputedStyle(document.body).color);
+}
 
 a {
   color: inherit;
