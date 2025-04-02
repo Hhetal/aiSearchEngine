@@ -1,0 +1,30 @@
+.container {
+  height: 450px;
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 200;
+  color: var(--textSoft);
+  margin-bottom: 20px;
+}
+
+.title::before {
+  content: "📊";
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 300px;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+}
+

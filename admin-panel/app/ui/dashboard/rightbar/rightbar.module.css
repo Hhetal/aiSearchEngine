@@ -1,0 +1,126 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  background-color: var(--bg);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bgContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+.bg {
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification {
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.notification.new {
+  color: #4caf50;
+}
+
+.notification.coming {
+  color: #2196f3;
+}
+
+.notification.update {
+  color: #ff9800;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.subtitle {
+  font-size: 12px;
+  color: var(--textSoft);
+}
+
+.desc {
+  font-size: 14px;
+  color: var(--textSoft);
+  line-height: 1.5;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.button.new {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button.coming {
+  background-color: #2196f3;
+  color: white;
+}
+
+.button.update {
+  background-color: #ff9800;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 15px;
+  }
+
+  .item {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .desc {
+    font-size: 12px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
