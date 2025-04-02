@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html{
+  overflow-x: hidden;
+}
+.inputBox{
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+  border: 0px;
+  outline: .5px solid #C8C8C8;
+  border-radius: 5px;
+}
+.inputBox input{
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.blog{
+  outline: .5px solid #C8C8C8;
+}
+
+.inputBox{
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+  border: 0px;
+  outline: .5px solid #C8C8C8;
+  border-radius: 5px;
+}
+.inputBox input{
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.blog{
+  outline: .5px solid #C8C8C8;
+  padding-left: 80px;
+  padding-right: 100px;
+}
+
+.inputBox{
+  display: flex;
+  align-items: center;
+  background-color: #FAFAFA;
+  border: 0px;
+  outline: .5px solid #C8C8C8;
+  border-radius: 5px;
+}
+.inputBox input{
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.inputBox textarea{
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  min-height: 150px;
+  resize: vertical;
+  background-color: transparent;
+}
+.btnBlue{
+  padding: 10px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3797EF;
+  border: 0;
+  text-align: center;
+  outline: 0;
+}
+.jodit-container{
+  margin-top: 10px;
+
+}
+.right{
+  margin-left: 20px;
+}
+.navbar{
+padding-left: 100px;
+padding-right: 100px;
+}
+.inputBox input[type="radio"] {
+  margin-right: 0.5rem; /* Adjust as needed */
+}
+
+.inputBox label {
+  font-size: 1rem; /* Match with other text elements */
+  color: #333; /* Adjust as needed */
+}
+/* Hide scrollbar for WebKit browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
